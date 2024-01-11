@@ -13,3 +13,7 @@ spring:
         uri: http://localhost:8085/
         predicates:
         - Path=/api/v1/customer/**
+      - id: shippingAPI
+        uri: http://localhost:8086/
+        predicates:
+        - Path=/api/v1/shipping/**
